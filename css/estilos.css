@@ -9,7 +9,7 @@ body{
 }
 .central{
     width: 400px;
-    background: white;
+    background: rgb(255, 255, 255);
     border-radius: 15px;
     padding: 20px;
     display: flex;
@@ -22,7 +22,7 @@ body{
 
 .central input{
     height: 20px;
-    background: rgb(223, 222, 222);
+    background: rgb(228, 227, 227);
     border: none;
     border-radius: 10px;
     outline: none;
