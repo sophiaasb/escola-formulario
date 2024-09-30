@@ -1,0 +1,42 @@
+body{
+    height: 180vh;
+    background: url('/imagens/01.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.central{
+    width: 400px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.central input{
+    height: 20px;
+    background: rgb(223, 222, 222);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.central input:focus{
+    background-color: rgb(255, 213, 220);
+}
+
+.central button{
+    background: rgb(255, 213, 220);
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
